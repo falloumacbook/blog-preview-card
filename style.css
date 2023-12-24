@@ -1,0 +1,85 @@
+/** @format */
+@import url(https://fonts.google.com/specimen/Figtree);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Figtree', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+	width: 100%;
+	max-width: 380px;
+	height: 520px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 1.2rem;
+	border: 1px solid black;
+	box-shadow: 7.5px 7.5px hsl(0, 0%, 7%);
+}
+
+.image,
+img {
+	width: 100%;
+	border-radius: 1.3rem;
+	padding: 12px;
+}
+
+.person img {
+	width: 20%;
+}
+
+.published-date {
+	text-transform: capitalize;
+}
+
+.person {
+	display: flex;
+}
+.person span {
+	margin-top: 8%;
+	font-weight: bold;
+}
+.avatar-name {
+	text-transform: capitalize;
+}
+
+.details {
+	padding-left: 25.5px;
+}
+
+.title {
+	margin-top: 0.8rem;
+}
+
+.title:hover {
+	cursor: pointer;
+	color: hsl(41, 88%, 63%);
+	transition: 0.3s;
+}
+
+.paragraph {
+	line-height: 1.5rem;
+	margin-top: 0.8rem;
+	color: hsl(0, 0%, 50%);
+	font-size: 16px;
+}
+
+button {
+	color: black;
+	font-weight: 800;
+	border: none;
+	border-radius: 0.3rem;
+	background: hsl(47, 88%, 63%);
+	width: 100px;
+	height: 27px;
+	margin-bottom: 1.1rem;
+}
